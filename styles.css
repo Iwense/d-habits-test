@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(231, 231, 231);
+}
+.app {
+}
+.header {
+    background: cadetblue;
+    padding: 20px;
+}
+.header__text {
+    font-size: 30px;
+    color: #fff;
+}
+.main {
+    background: #fff;
+    min-width: 500px;
+    width: 500px;
+    min-height: 300px;
+    padding: 12px 24px;
+}
+.folder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.folder__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.folder__icon {
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+}
+.subfolder {
+    margin-left: 40px;
+}
+.file {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.file__text {
+    color: #686868;
+    font-size: 16px;
+}
